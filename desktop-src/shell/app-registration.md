@@ -153,6 +153,8 @@ Through the inclusion of registry entries under the **HKEY\_CLASSES\_ROOT**\\**A
 
 
 
+> [!Note]  
+> Upon launching any file, explorer will check the existence *ALL* Application subkey open verb executable paths regardless of file association. If your file path happens to be a network UNC that is unreachable, you may find Windows slows down the launch of associated programs by seconds. Even tools like Group Policy Management Console are affected.
  
 
 ### Examples
